@@ -24,8 +24,8 @@ const Admin = ({ addEmployee, employees, mockEmployees, setEmployees }) => {
     setEmployees([...employees]);
   };
   return (
-    <div className="admin-section">
-      <div className="input-section">
+    <div className="admin-page">
+      <div>
         <h2>Create User Here</h2>
         <input
           placeholder="Name"
@@ -46,8 +46,8 @@ const Admin = ({ addEmployee, employees, mockEmployees, setEmployees }) => {
           Save
         </button>
       </div>
-      <div className="admin-table-container">
-        <table className="admin-table">
+      <div>
+        <table>
           <thead>
             <tr>
               <th>Name</th>

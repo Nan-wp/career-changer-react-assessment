@@ -34,6 +34,8 @@
     background-color: #76e6e6;
     border-radius: 10px;
     font-size: 18px;
+    margin: 5px;
+    cursor: pointer ;
 }
 .owner-page{
     display: flex;
@@ -42,7 +44,7 @@
     gap: 10px;
     padding-top: 10px;
     height: 1024px;
-    background-color: rgb(211, 197, 176);
+    background-color: #aea79b;
 }
 img{
     width: 250px;
@@ -54,4 +56,44 @@ img{
     line-height: 1.8;
     font-size: 18px;
     width: 400px;
+}
+.admin-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 30px;
+}
+.save-button{
+    background-color:#76e6e6 ;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+    cursor: pointer ;
+}
+.delete-button{
+    background-color: #a53232;
+    color: azure;
+    padding: 3px;
+    border-radius: 6px;
+    cursor: pointer ;
+}
+input {
+    padding: 6px;
+    margin: 5px;
+
+}
+
+table{
+    border-collapse: collapse;
+    border: 3px wheat solid;
+}
+th,td{
+    border: 3px wheat solid;
+    padding: 16px 32px;
+}
+
+.user-table{
+    display: flex;
+    justify-content: center;
 }
