@@ -8,7 +8,7 @@ const Owner = () => {
       <div className="owner-page">
         <h1>Nan Group-A-37</h1>
         <img
-          src="./src/girl-in-black-color-on-white-background.jpg"
+          src="https://cdn1.vectorstock.com/i/1000x1000/04/50/little-girl-drawing-isolated-icon-vector-24630450.jpg"
           alt="Girl"
         />
         <h2>Short Biography: </h2>
